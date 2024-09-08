@@ -17,5 +17,7 @@ totalTax = estateTax + countyTax;
 std::cout << "EstateTax is: $" << estateTax << std::endl; 
 std::cout << "CountyTax is: $" << countyTax << std::endl; 
 std::cout << "TotalTax is: $" << totalTax << std::endl; 
+
+return 0;
 }
 
