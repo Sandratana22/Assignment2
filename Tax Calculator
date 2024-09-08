@@ -1,0 +1,21 @@
+//Code for calculating tax 
+
+#include <iostream> 
+
+int main() {
+  //initializing the totale sales 
+  int totalSales = 95000; 
+
+int estateTax, countyTax, totalTax; 
+
+//Here is the calculation step 
+estateTax = totalSales * 4/100; 
+countyTax = totalSales * 2/100; 
+totalTax = estateTax + countyTax; 
+
+//And here is the output 
+std::cout << "EstateTax is: $" << estateTax << std::endl; 
+std::cout << "CountyTax is: $" << countyTax << std::endl; 
+std::cout << "TotalTax is: $" << totalTax << std::endl; 
+}
+
